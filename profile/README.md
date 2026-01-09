@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="img/qq-github-pfp.png" alt="QQ Omega" width="120" />
+<img src="../img/qq-github-pfp.png" alt="QQ Omega" width="120" />
 
 # QQ Omega
 
