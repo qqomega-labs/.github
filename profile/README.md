@@ -12,7 +12,7 @@
 
 **For investors** who need structured, data-driven analysis instead of hype-based decisions.
 **Why now**: AI maturity + on-chain data richness enable institutional-grade, explainable crypto research.
-**Why different**: Multi-timeframe scoring with transparent AI reasoning not black-box signals.
+**Why different**: Multi-agent scoring that aggregates diverse analyses into a single, transparent and explainable QQ Score, revealing strengths, weaknesses, and underlying trade-offs.
 
 ---
 
@@ -28,7 +28,7 @@ QQ Omega is a high-precision scoring engine that synthesizes **quantitative and 
 
 ### The Problem We Solve
 
-- **Too much noise**: News and hype move faster than facts. Manual research can't keep up with 10,000+ tokens across 100+ chains.
+- **Too much noise**: News and hype move faster than facts. Manual research can't keep up hundreds of tokens across 100+ chains.
 - **Too many traps**: Many token designs reward early insiders and turn retail into exit liquidity. Weak regulation leaves investors exposed.
 - **Trust is cheap, proof is rare**: Most claims are hard to verify. You need a consistent method to compare projects on the same basis.
 
@@ -69,7 +69,7 @@ The $QQ token is the access layer for QQ Omega.
 
 ### Why the Token Exists
 
-1. **Access control**: On-chain verification determines dashboard access no accounts, no middlemen.
+1. **Access control**: On-chain verification determines dashboard access.
 2. **Value capture**: As QQ Omega grows, token utility grows with it.
 3. **Fair distribution**: Everyone enters on the same terms. No VCs got in cheaper than you.
 
@@ -97,13 +97,13 @@ The $QQ token is the access layer for QQ Omega.
 ### 2026 Q1-Q2: First Swarms + Dashboard
 
 - [ ] **Carbon Swarm v1** (fundamentals)
-- [ ] **Oxygen Swarm v1** (macro/regime)
 - [ ] **Gold Swarm v1** (tokenomics)
 - [ ] **Dashboard v1** (token-gated, wallet login)
 - [ ] **Global QQ Score v0.5** per asset
 
-### 2026 Q2-Q3: AI Swarms Era
+### 2026 Q3-Q4: AI Swarms Era
 
+- [ ] **Oxygen Swarm v1** (macro/regime)
 - [ ] **Hydrogen Swarm v1** (on-chain)
 - [ ] **Silicon Swarm v1** (technicals)
 - [ ] **Phosphorus Swarm v1** (sentiment/news)
@@ -149,6 +149,9 @@ A: On-chain verification. Your wallet balance determines access.
 **Q: Where can I buy $QQ?**
 A: Launched via Virtuals Protocol Pegasus on Base. Graduates to Uniswap v2 after threshold.
 
+**Q: How many tokens are tracked?**
+A: The initial focus is full, deep coverage of major assets (e.g. Top 100 by evaluation). Coverage then expands progressively, adding new tokens based on market relevance, community  surveys, and direct submissions.
+
 ---
 
 ## Disclaimer
@@ -164,8 +167,6 @@ A: Launched via Virtuals Protocol Pegasus on Base. Graduates to Uniswap v2 after
 **Built by traders who got tired of manual research.**
 
 **Powered by AI. Backed by data.**
-
-**No VCs. No pre-mine. Fair launch.**
 
 ---
 
