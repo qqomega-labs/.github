@@ -120,7 +120,7 @@ The $QQ token is the access layer for QQ Omega.
 
 ## Community
 
-- **X (Twitter)**: [@QQAgents](https://x.com/QQAgents) Dev logs, announcements
+- **X (Twitter)**: [@QQomega_labs](https://x.com/QQomega_labs) Dev logs, announcements
 - **Documentation**: [docs.qqomega.xyz](https://docs.qqomega.xyz)
 
 ### For Developers
