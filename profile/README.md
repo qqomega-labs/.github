@@ -46,7 +46,7 @@ Each crypto asset is evaluated across five categories by specialized **AI agent 
 
 Their analyses aggregate into a **Global QQ Score** (0-100) that updates automatically as new data unfolds.
 
-**Multi-timeframe scoring**: Different weights apply per investment horizon short-term evaluations emphasize on-chain and technicals, while long-term assessments prioritize fundamentals and tokenomics.
+**Multi-timeframe scoring**: Each asset is scored across four horizons (Daily, Weekly, Monthly, Yearly) with different weights per timeframe. Short-term evaluations emphasize on-chain and technicals, while long-term assessments prioritize fundamentals and tokenomics.
 
 ---
 
@@ -56,28 +56,44 @@ Their analyses aggregate into a **Global QQ Score** (0-100) that updates automat
 
 The $QQ token is the access layer for QQ Omega.
 
-| Detail           | Value                                        |
-| ---------------- | -------------------------------------------- |
-| **Chain**        | Base                                         |
-| **Max Supply**   | 1,000,000,000 (fixed, no inflation)          |
-| **Launch**       | Virtuals Protocol Pegasus (fair launch)      |
-| **Distribution** | No private sale, no preferential allocations |
+| Detail           | Value                                                      |
+| ---------------- | ---------------------------------------------------------- |
+| **Chain**        | Solana (6,000 QQ) + Base (4,000 QQ)                        |
+| **Total Supply** | 10,000 QQ (fixed, no inflation)                            |
+| **Launch**       | Meteora DBC stealth launch (Solana) + Uniswap v3 LP (Base) |
+| **Distribution** | No private sale. See breakdown below                       |
 
 ### Access
 
-**Hold 100,000 $QQ** to unlock the live dashboard with real-time scores, rankings, and all features.
+**Hold 1 $QQ** to unlock the live dashboard with real-time scores, rankings, and all features.
 
 ### Why the Token Exists
 
 1. **Access control**: On-chain verification determines dashboard access.
 2. **Value capture**: As QQ Omega grows, token utility grows with it.
-3. **Fair distribution**: Everyone enters on the same terms. No VCs got in cheaper than you.
+3. **Fair launch**: No private sale, no VC rounds. Public launch via Meteora DBC on Solana. Team and partnership allocations are disclosed in the distribution breakdown below.
+
+### Token Distribution
+
+| Allocation                     | Amount           | Share |
+| ------------------------------ | ---------------- | ----: |
+| Meteora DBC Stealth Launch     | 2,600 QQ (SOL)   |   26% |
+| LP on Solana (Meteora DAMM v2) | 2,400 QQ (SOL)   |   24% |
+| LP on Base (Uniswap v3)        | 2,400 QQ (Base)  |   24% |
+| QQ Community Airdrop           | 1,500 QQ (mixed) |   15% |
+| Virtuals Ecosystem Airdrop     | 600 QQ (Base)    |    6% |
+| Core Contributors              | 400 QQ (mixed)   |    4% |
+| Strategic Partnerships         | 100 QQ (mixed)   |    1% |
+
+### Burn & Protocol-Owned Liquidity
+
+12% of LP fees fund a **buyback-and-burn** mechanism. 17% of LP fees grow **Protocol-Owned Liquidity (POL)** across both chains. Target: reduce total supply by at least 50% over time. All operations are executed monthly with on-chain proofs.
 
 ---
 
 ## Roadmap
 
-### 2025: Architecture Design ✅
+### 2025 Q3-Q4: Architecture Design ✅
 
 - [x] Multi-layer scoring architecture defined (Agents → Swarms → Area Scores → Global QQ Score)
 - [x] Data strategy implemented (domains, providers, refresh cadence)
@@ -88,7 +104,7 @@ The $QQ token is the access layer for QQ Omega.
 
 ### 2026 Q1: Token Launch ✅
 
-- [x] Fair launch via Virtuals Pegasus
+- [x] Fair launch via Meteora DBC (Solana), graduation to DAMM v2 + Uniswap v3 LP (Base)
 - [x] X channel live
 - [ ] DexScreener listing
 - [ ] CoinGecko listing
@@ -97,16 +113,16 @@ The $QQ token is the access layer for QQ Omega.
 ### 2026 Q1-Q2: First Swarms + Dashboard
 
 - [ ] **Carbon Swarm v1** (fundamentals)
+- [ ] **Oxygen Swarm v1** (macro/regime)
 - [ ] **Gold Swarm v1** (tokenomics)
 - [ ] **Dashboard v1** (token-gated, wallet login)
 - [ ] **Global QQ Score v0.5** per asset
 
 ### 2026 Q3-Q4: AI Swarms Era
 
-- [ ] **Oxygen Swarm v1** (macro/regime)
 - [ ] **Hydrogen Swarm v1** (on-chain)
 - [ ] **Silicon Swarm v1** (technicals)
-- [ ] **Phosphorus Swarm v1** (sentiment/news)
+- [ ] **Phosphorus Swarm v1** (orchestration & global score aggregation)
 - [ ] Dashboard tabs for each dimension
 - [ ] **Global QQ Score v1** per asset
 
@@ -115,6 +131,17 @@ The $QQ token is the access layer for QQ Omega.
 - [ ] API documentation + example integrations
 - [ ] Public REST API v1 (scores, rankings, asset lists)
 - [ ] Alerts Engine v1 (score changes, regime shifts, unlock risk)
+
+### 2027 Q1-Q2: Calibration & Coverage
+
+- [ ] Continuous calibration loop (QQ Scores vs realized performance, weight tuning, regime stability tracking)
+- [ ] Data quality gates (freshness, confidence, anomaly filters) before expanding coverage
+
+### 2027 Q3-Q4: Personal QQ OS
+
+- [ ] Portfolio & watchlist overlay with aggregated risk profile
+- [ ] Allocation & rebalance plans with guardrails (risk budgets, exposure limits, liquidity constraints)
+- [ ] Explainability layer (PnL attribution, event trail, decision trace)
 
 ---
 
@@ -141,16 +168,16 @@ API specs and beta access coming Q4 2026. Follow X for updates.
 A: No. Architecture and API specs are documented publicly; scoring algorithms are proprietary.
 
 **Q: When will the dashboard be available?**
-A: Target Q1-Q2 2026. Token-gated access requires holding 100,000 $QQ.
+A: Target Q1-Q2 2026. Token-gated access requires holding 1 $QQ.
 
 **Q: How is token holding verified?**
 A: On-chain verification. Your wallet balance determines access.
 
 **Q: Where can I buy $QQ?**
-A: Launched via Virtuals Protocol Pegasus on Base. Graduates to Uniswap v2 after threshold.
+A: $QQ launched via Meteora DBC on Solana (graduates to DAMM v2) with liquidity also on Base via Uniswap v3.
 
 **Q: How many tokens are tracked?**
-A: The initial focus is full, deep coverage of major assets (e.g. Top 100 by evaluation). Coverage then expands progressively, adding new tokens based on market relevance, community  surveys, and direct submissions.
+A: The initial focus is full, deep coverage of major assets (e.g. Top 100 by evaluation). Coverage then expands progressively, adding new tokens based on market relevance, community surveys, and direct submissions.
 
 ---
 
