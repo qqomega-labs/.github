@@ -71,7 +71,7 @@ The $QQ token is the access layer for QQ Omega.
 
 1. **Access control**: On-chain verification determines dashboard access.
 2. **Value capture**: As QQ Omega grows, token utility grows with it.
-3. **Fair launch**: No private sale, no VC rounds. Public launch via Meteora DBC on Solana. Team and partnership allocations are disclosed in the distribution breakdown below.
+3. **Stealth launch**: Public launch via Meteora DBC on Solana.
 
 ### Token Distribution
 
@@ -100,11 +100,11 @@ The $QQ token is the access layer for QQ Omega.
 - [x] Scoring engine prototyped and validated
 - [x] Engineering infrastructure bootstrapped
 - [x] Public documentation live
-- [x] Tokenomics defined for fair launch
+- [x] Tokenomics defined for stealth launch
 
 ### 2026 Q1: Token Launch ✅
 
-- [x] Fair launch via Meteora DBC (Solana), graduation to DAMM v2 + Uniswap v3 LP (Base)
+- [x] Stealth launch via Meteora DBC (Solana), graduation to DAMM v2 + Uniswap v3 LP (Base)
 - [x] X channel live
 - [ ] DexScreener listing
 - [ ] CoinGecko listing
